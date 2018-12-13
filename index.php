@@ -7,11 +7,13 @@
     <title>Pruebas Carlos en GIT</title>
 </head>
 <body>
-    <h1>Pruebas Carlos</h1>
-    <h2>Este es Local</h2>
-    <h2>Nuevo Cambio</h2>
-    <h5>Cambio Carlos</h5>
-    <h2>Nuevo Cambio</h2>
-    <h2>Cambio Marcos</h2>
+    <?php 
+        $d = [];
+
+        for($i=0; $i<20; $i++){
+            $d[]=$i;
+        };
+        var_dump($d[]=implode(",",$d));
+    ?>
 </body>
 </html>
